@@ -10,7 +10,7 @@ function App() {
   const fullLink = refCode ? `${baseUrl}${refCode}` : '';
 
   const message = name && fullLink
-    ? `Përshëndetje ${name}.\nJu jeni regjistruar me sukses dhe nuk kërkohet të bëni asnjë veprim tjetër për t’u futur në Listë.\nKëtu gjeni linkun unik, të cilin mund ta ndani me të afërmit dhe miqtë për t’i referuar në Listën Jet.\nFillo tani: ${fullLink}`
+    ? `Përshëndetje ${name},\nJu jeni regjistruar me sukses dhe nuk kërkohet asnjë veprim tjetër për t’u futur në Listë.\nMë poshtë gjeni linkun tuaj unik. Kopjojeni dhe dërgojeni te miqtë dhe të afërmit për t’i referuar në Listën Jet.\nFillo tani: ${fullLink}`
     : '';
 
   const handleCopy = async () => {
