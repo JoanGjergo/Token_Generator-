@@ -46,7 +46,7 @@ function App() {
         type="text"
         value={name}
         onChange={e => setName(e.target.value)}
-        placeholder="Shkruani emrin tuaj"
+        placeholder="Shkruani emrin e Lead-it"
         className="ref-input"
         style={{ marginBottom: '1.2rem' }}
       />
